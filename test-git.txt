@@ -1,0 +1,42 @@
+function sayHello(name) {
+    console.log('Hello ' + name);
+}
+
+sayHello('Mainaka');
+
+var satu = 10;
+var dua = 20;
+var tiga = 30;
+console.log("Penjumlahan dari " +satu+" dan "+dua+" adalah "+tiga);
+
+var nim = 111040258;
+if (nim==111040256){
+    console.log("Rifki M Bogara");
+}
+else{
+    console.log("Bukan Rifki M Bogara");
+}
+
+switch (nim){
+    case 111040256 :
+        console.log("ini Rifki");
+        break;
+    case 111040257 :
+        console.log("ini bukan rifki");
+        break;
+    default :
+        console.log("nim blm terdaftar!");
+}
+
+var n = 5;
+var i = 0;
+var j = 10
+for(i=0; i<n; i++) {
+    console.log("perulangan ke "+i);
+}
+
+while(j > n) {
+    i = i+1;
+    console.log("perulangan kebalik dari "+i);
+    j--;
+}
