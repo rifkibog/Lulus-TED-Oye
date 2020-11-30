@@ -3,6 +3,12 @@ function sayHello(name) {
 }
 
 sayHello('Mainaka');
+  
+function sayHello(name) {
+    console.log('Hello kaka' + name);
+}
+
+sayHello('Maetami');
 
 var satu = 10;
 var dua = 20;
